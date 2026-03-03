@@ -1,0 +1,90 @@
+html{
+    background-color: rgb(158, 165, 147);
+}
+body{
+    margin:0;
+}
+header{
+    text-align: center;
+    box-shadow: 0px 0px 5px;
+    background-color: rgba(255, 235, 205, 0.363);
+    position: fixed;
+    width: 100%;
+}
+header img{
+    height: 100px;
+    width: 300px;
+}
+nav{
+padding: 10px;
+}
+nav a{
+    text-decoration:none;
+    border-radius: 20px 20px 0px 0px;
+    color:rgb(122, 104, 104);
+    font-size:20px;
+    padding:5px 15px;
+    font-family: Akronim;
+}
+nav a:hover{
+    color:black;
+    background-color:rgb(157, 184, 111);
+    border-radius:20px 0px 20px 0px;
+    box-shadow: 5px 2px 3px 0px gray;
+    padding:7px 15px;
+    transition:0.7s;
+}
+.home{
+    height: 800px;
+    background-image: url("bg3.png");
+    background-size: cover;
+    padding-top: 50px;
+
+}
+
+.deskripsihome{
+    width: 40%;
+    font-size: 20px;
+    background-size: cover;
+    padding-top:50px;
+    margin-left: 50px;
+    & h1{
+        color: azure;
+    }
+    & h3{
+        color: rgb(252, 228, 192);
+        padding: 10 px 10 px;
+        border-radius: 10px;
+        background-color: rgba(206, 142, 97, 0.342);
+    }
+    & p{
+        color: beige;
+        background-color:rgba(104, 202, 85, 0.425);
+        padding: 10 px 10 px;
+        border-radius: 10px;
+    }
+}
+.deskripsihome a{
+    text-decoration: none;
+    color: white;
+    background-color:rgb(64, 182, 117);
+    padding:10px 25px;
+    border-radius:30px;
+    transition:0.3s;
+}
+.deskripsihome a:hover{
+    box-shadow: 3px 3px 5px -3px black;
+    transition: 0.5s;
+}
+Section.project{
+    height: 800px;
+    text-align: center;
+}
+.containerabout{
+    width: 50%;
+    margin: auto;
+    padding: 50px 20px;
+    & img {
+        height: 300px;
+    }
+}
