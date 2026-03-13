@@ -1,5 +1,6 @@
 html{
     background-color: rgb(158, 165, 147);
+    scroll-behaviour: smooth;
 }
 body{
     margin:0;
@@ -87,4 +88,5 @@ Section.project{
     & img {
         height: 300px;
     }
+
 }
