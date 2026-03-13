@@ -1,6 +1,6 @@
 html{
     background-color: rgb(158, 165, 147);
-    scroll-behaviour: smooth;
+    scroll-behavior: smooth;
 }
 body{
     margin:0;
@@ -90,3 +90,4 @@ Section.project{
     }
 
 }
+
